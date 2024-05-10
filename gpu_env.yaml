@@ -1,0 +1,28 @@
+name: dressup
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::jupyterlab
+  - Cython<3.0
+  - python=3.9
+  - pandas
+  - matplotlib
+  - pytorch=2.1.0
+  - pytorch-cuda=12.1
+  - einops
+  - pytorch=2.1.0
+  - pytorch-cuda=12.1
+  - torchvision
+  - imageio
+  - pillow
+  - wandb
+  - tensorboard
+  - tqdm
+  
+  - pip
+  - pip:
+    - numpy
+    - ftfy
+    - regex
+    - torchvision
